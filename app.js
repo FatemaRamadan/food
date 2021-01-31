@@ -24,6 +24,8 @@ var userAge = prompt (`how old are you `);
 console. log (userAge);
 alert (userAge + ` Welcom Aboard!` );*/
 
+function firstMessage(){
+
 
 var askUser = prompt (`Do you want to see the recipe? Yes / No`);
 
@@ -40,13 +42,15 @@ else if ( askUser === `no`){
     answer = '<a href ="https://www.delish.com/cooking/recipe-ideas/g3246/easy-desserts/" /a>' + `check this link` ;
     document.write (answer);
 }
-    var results ;
+} firstMessage();
+
+function secondMessage(){
+var results=``;
+var answer = '<img src="images /fd8f4e900d5e3c643a2a20192563ac8a.jpg";width="100px" />';
 var recipeNumber = prompt (`how many recipes you want to see?`);
 for(var i = 1 ; i<recipeNumber ; i++){
-    result = answer ;
-    document. write (result);
+    results =  answer ;
+    document. write (results);
 }
-
-
-
-
+}
+secondMessage();

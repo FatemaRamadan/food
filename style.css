@@ -1,0 +1,55 @@
+
+body{
+    background-image: url("images /10855.png");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-size:cover;
+   
+}
+header h1 {
+    font-family:cursive;
+    color: crimson;
+    font-size:xx-large;
+    text-align: center;
+    font-stretch: expanded;
+    font-style: italic;
+    padding:20px;
+}
+header ul li {
+    list-style: none;
+}
+header h2 ul li  {
+    text-align: center;
+   
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    list-style:none;
+    display: inline-block;
+    padding: 30px;
+    margin-left: 60px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 29%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  body p{
+      margin-left:10%;
+      padding-right: 10%;
+      font-size: x-large;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color:lavender;
+
+  }
+
+  ul li a{
+    text-decoration:none;
+  }
